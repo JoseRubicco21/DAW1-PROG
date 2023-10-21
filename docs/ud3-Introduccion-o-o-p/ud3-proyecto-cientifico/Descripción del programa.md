@@ -318,6 +318,6 @@ Esto no es más que otra estructura de control igual que el if-else. Tiene una s
 
 Para el código solo existen los casos "1", "2", "3". Cualquier otro es el caso por defecto que simplemente termina la ejecución de la estructura de control. 
 
-:::Tip
+:::note
 Ahora mismo intentar enteder el switch no es necesario, esto seguramente lo veremos cuando trabajemos con estructuras de control
 :::
