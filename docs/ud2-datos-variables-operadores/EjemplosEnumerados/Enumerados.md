@@ -40,7 +40,7 @@ Para poder accesar a los valores de un enumerado debemos de utilizar el nombre d
     }
 ```
 
-:::Note
+:::note
 
 Los enumerados en **Java** son considerados una clase "Especial". Esto permite tener cosas mucho más complejas e útiles. Por ejemplo:
 
