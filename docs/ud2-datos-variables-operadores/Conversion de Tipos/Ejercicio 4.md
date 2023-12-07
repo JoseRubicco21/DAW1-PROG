@@ -1,4 +1,5 @@
 ## Enunciado
+Haz un programa que produzca una tabla con valores int de 125 a 270 convertidos a byte. Razona el resultado.
 
 ## Código
 
@@ -20,7 +21,7 @@ public class Ejercicio_4 {
 		System.out.println("int 130 es en byte:" + n130);
 		System.out.println("int 255 es en byte:" + n255);
 		*/
-        
+
 		//El resultado es asi puesto que el ultimo bit se utiliza para denominar si el número es positivo o negativo
 	
 		for (int i = 125; i < 271 ; i++) {
@@ -33,3 +34,7 @@ public class Ejercicio_4 {
 
 }
 ```
+
+## Razonamiento
+
+Podemos ver que los número del 0-127 son positivos ya que el ultimo bit se usa para saber si es un número negativo o positivo y a partir del 256 se retorna a 1 porque como tal el número que estamos guardando es `00000001 00000001` que ocupa dos bytes y se "trunca" el resultado.  
